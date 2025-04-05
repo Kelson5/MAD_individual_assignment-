@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E6F2FF"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/school" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Math Learning App"
+        android:textColor="#003366"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/compare_numbers_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Compare Numbers"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/order_numbers_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Order Numbers"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/compose_numbers_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Compose Numbers"
+        android:backgroundTint="#FF9800"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
