@@ -234,7 +234,7 @@ public class ComposeNumbersActivity extends AppCompatActivity {
             score++;
             Toast.makeText(this, "Correct! " + firstNumber + " + " + secondNumber + " = " + targetNumber, Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "Try again! " + firstNumber + " + " + secondNumber + " = " + sum + ", not " + targetNumber, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Wrong! " + firstNumber + " + " + secondNumber + " = " + sum + ", not " + targetNumber, Toast.LENGTH_SHORT).show();
         }
 
         questionCount++;

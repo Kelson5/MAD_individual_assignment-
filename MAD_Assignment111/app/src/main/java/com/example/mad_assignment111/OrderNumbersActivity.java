@@ -193,7 +193,7 @@ public class OrderNumbersActivity extends AppCompatActivity {
             score++;
             Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "Try again!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Wrong!", Toast.LENGTH_SHORT).show();
         }
 
         questionCount++;
